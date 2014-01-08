@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package sealclub
+ * @package Seal Club
  */
 
 get_header(); ?>
