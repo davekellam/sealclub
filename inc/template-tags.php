@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package sealclub
+ * @package Seal Club
  */
 
 if ( ! function_exists( 'sealclub_paging_nav' ) ) :

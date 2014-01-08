@@ -1,6 +1,6 @@
 <?php
 /**
- * @package sealclub
+ * @package Seal Club
  */
 ?>
 

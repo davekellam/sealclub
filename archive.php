@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package sealclub
+ * @package Seal Club
  */
 
 get_header(); ?>

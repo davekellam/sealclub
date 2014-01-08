@@ -2,7 +2,7 @@
 /**
  * sealclub functions and definitions
  *
- * @package sealclub
+ * @package Seal Club
  */
 
 /**

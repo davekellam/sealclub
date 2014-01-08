@@ -2,7 +2,7 @@
 /**
  * The template for displaying search forms in sealclub
  *
- * @package sealclub
+ * @package Seal Club
  */
 ?>
 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
