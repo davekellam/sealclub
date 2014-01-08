@@ -89,7 +89,14 @@ a img {
 /* =Global
 ----------------------------------------------- */
 
-body,
+body {
+	color: #111;
+	font-family: serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
 button,
 input,
 select,
@@ -103,6 +110,7 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
 	clear: both;
 }
 hr {
@@ -475,20 +483,6 @@ a:active {
 .entry-summary {
 	margin: 1.5em 0 0;
 }
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
-}
-
-
-/* =Asides
------------------------------------------------ */
-
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-	display: none;
-}
-
 
 /* =Media
 ----------------------------------------------- */
@@ -558,47 +552,4 @@ object {
 	float: right;
 	text-align: right;
 	width: 50%;
-}
-
-
-/* =Comments
------------------------------------------------ */
-
-.comment-content a {
-	word-wrap: break-word;
-}
-.bypostauthor {
-}
-
-
-/* =Widgets
------------------------------------------------ */
-
-.widget {
-	margin: 0 0 1.5em;
-}
-
-/* Make sure select elements fit in widgets */
-.widget select {
-	max-width: 100%;
-}
-
-/* Search widget */
-.widget_search .search-submit {
-	display: none;
-}
-
-
-/* =Infinite Scroll
------------------------------------------------ */
-
-/* Globally hidden elements when Infinite Scroll is supported and in use. */
-.infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
-.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
-	display: none;
-}
-
-/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-.infinity-end.neverending .site-footer {
-	display: block;
 }
