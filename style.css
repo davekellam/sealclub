@@ -122,9 +122,11 @@ hr {
 
 /* Text elements */
 p {
+	font-family: sans-serif;
 	margin-bottom: 1.5em;
 }
 ul, ol {
+	font-family: sans-serif;
 	margin: 0 0 1.5em 3em;
 }
 ul {
