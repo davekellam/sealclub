@@ -16,7 +16,7 @@ get_header(); ?>
 			<ul>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php echo '<li><a href="' . get_permalink() . '">' . get_title() . '</a></li>'; ?>
+				<?php echo '<li><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>'; ?>
 
 			<?php endwhile; ?>
 			</ul>
