@@ -13,11 +13,13 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
+			<ul>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php the_title(); ?>
+				<?php echo '<li><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></li>'; ?>
 
 			<?php endwhile; ?>
+			</ul>
 
 			<?php sealclub_paging_nav(); ?>
 
