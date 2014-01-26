@@ -67,3 +67,16 @@ require get_template_directory() . '/inc/extras.php';
  * Custom functions related to Jetpack.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Custom queries for the site
+ */
+function ef_custom_queries( $query ) {
+	// Display all posts on homepage
+	if ( $query->is_home() ) {
+		// Setting to -1 isn't great for performance, so 30 for now
+		// Could probably use a transient or something instead
+		$query->set( 'posts_per_page', 30 );
+	}
+}
+add_action( 'pre_get_posts', 'ef_custom_queries' );
