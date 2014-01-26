@@ -44,7 +44,7 @@ add_action( 'after_setup_theme', 'sealclub_setup' );
  * Enqueue scripts and styles.
  */
 function sealclub_scripts() {
-	wp_enqueue_style( 'sealclub-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'sealclub-style', get_template_directory_uri() . '/css/style.css', false  );
 
 	wp_enqueue_script( 'sealclub-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
