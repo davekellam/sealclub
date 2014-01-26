@@ -5,3 +5,19 @@
 
 @import "compass/reset";
 @import "underscores"; // gradually eliminate
+
+body { 
+	width: 90%;
+	margin: 0 auto;
+}
+
+.home ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+h1 { 
+	margin: 50px 0;
+	font-size: 32px;
+	font-weight: bold;
+}
